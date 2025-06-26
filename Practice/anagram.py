@@ -8,5 +8,6 @@ elif len(word1) != len(word2):
 elif sorted(word1) == sorted(word2):
     print("That's a ANAGRAM")
 else:
-    print("Not a ANAGRAM.")
+    print("Not a ANAGRAM.") 
+
     
