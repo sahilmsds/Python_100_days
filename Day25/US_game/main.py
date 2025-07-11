@@ -16,9 +16,7 @@ while len(guessed_states) < len(states):
     # d = data[data['state'] == 'Florida']
     # print(d['x'])
     if answer_state == "Exit":
-        for state in states:
-            if state not in guessed_states:
-                missing_states.append(state)
+        missing_states = [state for state in states if state not in guessed_states]
         new_csv = pd.DataFrame(missing_states)
         new_csv.to_csv("learn_states")
         break

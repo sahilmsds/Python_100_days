@@ -6,3 +6,15 @@ data.txt
 build/
 dist/
 *.spec
+nato_phonetic_alphabet
+squirrel_count
+Squirrel_Data
+weather_data
+tomato.png
+data.txt
+data.json
+logo.png
+.gitignore
+data/
+images/
+Practice/
