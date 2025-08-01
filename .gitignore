@@ -21,3 +21,5 @@ Practice/
 letter_templates/
 birthdays.csv
 test.py
+.env
+testing.py
